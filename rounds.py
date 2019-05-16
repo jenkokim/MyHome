@@ -4,10 +4,10 @@ from house import House
 
 class Round:
     data = {}
-    t1 = ("rolud", "Bruno", "Fabrizio")
-    t2 = ("Jenko😎", "rolud", "Bruno")
-    t3 = ("Fabrizio", "Jenko😎", "rolud")
-    t4 = ("Bruno", "Fabrizio", "Jenko😎")
+    t1 = ("Bruno", "Jenko😎", "Fabrizio")
+    t2 = ("rolud", "Bruno", "Jenko😎")
+    t3 = ("Fabrizio", "rolud", "Bruno")
+    t4 = ( "Jenko😎", "Fabrizio", "rolud")
     rnds = {'Tue': 1, 'Thu': 2, 'Sat': 3, 'Sun': 3,
             1: 'Bagno', 2: 'Bagno e cucina', 3: 'Casa'}
 
